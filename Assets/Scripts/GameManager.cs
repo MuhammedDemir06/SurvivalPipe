@@ -51,6 +51,8 @@ public class GameManager : MonoBehaviour
    //Buttons
    public void PlayButton()
    {
+      print("kjskjdkjsdk");
+      Time.timeScale=1f;
       SceneManager.LoadScene(0);
    }
 }
